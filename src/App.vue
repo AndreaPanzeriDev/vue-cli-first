@@ -2,17 +2,20 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <AppTitle/>
+    <Hero/>
   </div>
 </template>
 
 <script>
 
 import AppTitle from './components/AppTitle.vue'
+import Hero from './components/Hero.vue'
 
 export default {
   name: 'App',
   components: {
-    AppTitle
+    AppTitle,
+    Hero
   }
 }
 </script>
